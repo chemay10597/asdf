@@ -9,7 +9,7 @@
 ?>
 <?php include 'databaseconn.php' ?>
 
-  <body style="background-image:url(images/help.jpg); background-repeat:no-repeat; background-size: 100%;">
+  <body style="background-color: #ffffff;">
       <div>
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
@@ -112,18 +112,19 @@
             <?php //include_once("publicpost.php");?>
           </div>
           <div id="creategroup" class="displaydiv" style="display:none;">
-            <?php include_once("creategroup.php");?>
+            <?php //include_once("creategroup.php");?>
           </div>
           <div id="donationcampaign" class="displaydiv" style="display:none;">
-            <?php include_once("createdonationcampaign.php");?>
+            <?php //include_once("createdonationcampaign.php");?>
           </div>
           <div id="testimonies" class="displaydiv" style="display:none;">
-            <?php include_once("createtestimonies.php");?>
+            <?php //include_once("createtestimonies.php");?>
           </div>
           <div id="accountsetting" class="displaydiv" style="display:none;">
             <h3>User Info</h3>
-             <?php include_once("userinfo.php");?>
+             <?php //include_once("userinfo.php");?>
           </div>
+          <?php include_once("newsfeed.php");?>
         </div></center>
         <script>
           $("#nav a").click(function(e){

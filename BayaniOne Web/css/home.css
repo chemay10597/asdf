@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     height: 100%;
-    overflow: hidden;
+    overflow: auto;
   	padding-top: 44px;
   	padding-bottom: 25px;
 }
@@ -34,7 +34,7 @@ body {
 }
 
 .homefooter {
-    position: fixed;
+    padding-bottom: 0;
     left: 0;
     bottom: 0;
     height: 110px;
